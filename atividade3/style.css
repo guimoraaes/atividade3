@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.macaco {
+    width: 5%;
+}
+
+.macaco2 {
+    width: 20%;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+/*-----------HEADER-----------*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.buscar {
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    margin-left: 40%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.botao {
+    border-style: none;
+    width: 10%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+/*-----------FRAME-----------*/
+
+.frame {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+        /*----------------------MENU*/
+
+.menu {
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.lista {
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 2.3rem;
+}
+
+li {
+    list-style: none;
+}
+
+        /*----------------------EMAILS*/
+
+.emails {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.email-indv {
+    margin: 0.5rem;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 28rem;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.titulos {
+    margin: 1rem;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.textos {
+    margin: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+        /*----------------------SELECIONADO*/
+
+.frame-selecionado {
+    margin: 1rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.texto-selecionado {
+    margin: 1rem;
+}
